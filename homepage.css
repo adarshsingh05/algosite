@@ -1,0 +1,253 @@
+/* styling the header */
+.headerofsite {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none; /* Removes bullets from unordered lists */
+    
+}
+.headerimage{
+    height: 100px;
+    width: auto;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.dark-mode{
+    height: 40px;
+    width: 40px;
+    
+    border: 1px solid red;
+    cursor: pointer;
+}
+.user{
+    height: 45px;
+    width: auto;
+    /* margin-top: 35px;
+    margin-left: 40px; */
+    border: 1px solid red;
+    cursor: pointer;
+}
+.header{
+    align-items: center;
+    justify-content: center; 
+    font-weight: 800;
+    margin-left: 50px;
+    width: auto;
+    font-size: 20px;
+    margin-top: auto;  
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.headertext{
+    align-items: center;
+    border: 1px solid red;
+    cursor: pointer;
+
+
+}
+.mentorship{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    width: auto;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+}
+.header-text {
+    font-weight: 800;
+    font-size: 44px;  
+    white-space: nowrap; 
+    flex-grow: 1;
+    text-align: center; 
+}
+.right{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 23%;
+    justify-content: space-around;
+    
+}
+
+/* styling the main body */
+.body{
+    border: 1px solid red;
+    width: auto;
+}
+.left{
+   
+}
+/* bodypart one styling */
+.partone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rightimage{
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+/* styling the part two */
+.parttwo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.parttwomain{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    /* margin-left: 60px; */
+    width: 70%;
+}
+.two-image{
+    border: 1px solid red;
+    margin-left: 50px;
+    
+}
+.two-images{
+    border: 1px solid red;
+    border-radius: 25%;
+    width: 170px;
+    height: 150px;
+
+}
+.two-text{
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* part three styling */
+.partthreeuppertext{
+    border: 1px solid red;
+    width: 365px;
+    margin-left: 200px;
+}
+.partthree{
+    width: 100%;
+    border: 1px solid red;
+}
+.partthreecards{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: auto;
+    justify-content: space-evenly;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    border: 1px solid red;
+    width: 170px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.partthree-icons{
+    height: 45px;
+    width: auto;
+    /* margin-bottom: 65px; */
+    margin-right: 85px;
+    
+}
+.partthree-text{
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+
+/* styling the footer */
+.footerofsite{
+    height: auto;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 100px;
+    width: 37%;
+    border: 1px solid red;
+   
+
+}
+.pretext{
+    align-items: center;
+    margin-left: -60px;
+    margin-top: -10px;
+
+}
+.copyright{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+}
+.center2{
+    border: 1px solid red;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.centerl{
+    height: 100%;   
+    border: 1px solid red;
+    margin-left: 30px;
+    width: 100%;
+}
+.centerc{
+  
+    margin-left: 300px;
+
+}
+.centerr{ 
+    
+    margin-left: 30px;
+    width: 100%;
+}
+
+.center3{
+    border: 1px solid red;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
